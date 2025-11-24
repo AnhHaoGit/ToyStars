@@ -1,0 +1,1068 @@
+body {
+    background-image: url("./background.jpeg");
+}
+.container1 {
+    width: 101.2%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #034c5f;
+    background-color: #c1e2e8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+.item1 {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.title1 {
+    text-decoration: none;
+    font-family: 'mali';
+    color: #034c5f;
+    font-weight: bold;
+}
+
+.fa-user {
+    margin-left: 20px;
+    color:#034c5f;
+}
+.title1-1 {
+    border-right: 1px solid #034c5f;
+    display: inline-block;
+    width: 200px;
+}
+.fa-right-to-bracket {
+    margin-left: 20px;
+    color:#034c5f;
+}
+.title1-2 {
+    margin-left: 10px;
+    width: 160px;
+}
+.item2 {
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Mali';
+}
+.shoppingcart {
+    text-decoration: none;
+    color:#034c5f;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.container2 {
+    width: 101.2%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #c1e2e8;
+    position: fixed;
+    top: 31px;
+    left: 0px;
+    z-index: 3;
+}
+.websitelogo {
+    width: 100px;
+    margin-left: 50px;
+}
+.searchbar{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+input {
+    font-size: 25px;
+    border-radius: 30px;
+    width: 80%;
+    border: 2px solid #034c5f;
+    font-family: 'mali';
+}
+.search {
+    background-color: #ee6457;   
+    border: 1px solid #ee6457;
+    width: 5%;
+    height: 40px;
+    border-radius: 30px;
+    color: white;  
+    text-align: center;  
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.search:hover {
+    background-color: #f9c4ba;   
+    border: 1px solid #f9c4ba;
+}
+.tab1 {
+    width: 101.2%;
+    height: 25px;
+    position: fixed;
+    top: 101px;
+    left: 0px;
+    background-color: #ee6457;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tab1 div {
+    height: 100%;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tab1 a {
+    color: white;
+    font-family: 'mali';
+    text-decoration: none;
+}
+.tab1 div:hover {
+    border-bottom: 3px solid white;
+}
+.tab2 {
+    width: 101.2%;
+    height: 25px;
+    position: fixed;
+    top: 126px;
+    left: 0px;
+    background-color: #034c5f;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tab2 div {
+    height: 100%;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tab2 a {
+    color: white;
+    font-family: 'mali';
+    text-decoration: none;
+}
+.tab2 div:hover {
+    border-bottom: 3px solid white;
+}
+.message {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 80px;
+	height: 80px;
+	border-radius: 70px;
+	background-color: #ee6457;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.5s;
+	transition-timing-function: ease;
+	overflow: hidden;
+    box-shadow: 0px 0px 10px 5px rgb(179, 179, 179);
+}
+.message:hover {
+	width: 400px;
+	height: 600px;
+	background-color: white;
+	font-size: 0px;
+	border: 5px solid #034c5f;
+}
+.fa-message {
+	margin-top: 30px;
+}
+.messagebox2 {
+	width: 90%;
+	height: 100%;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+.messageimg {
+	width: 40%;
+}
+.messagetext1 {
+	color: #034c5f;
+	font-size: 20px;
+	margin-top: 20px;
+	font-family: 'mali';
+}
+.messageform {
+	margin-top: 320px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.messageinput {
+	border-radius: 30px;
+	border: 1px solid #034c5f;
+	font-size: 35px;
+	width: 75%;
+}
+.sendmessage1 {
+	width: 70px;
+	height: 40px;
+	background-color: #ee6457;
+	border-radius: 30px;
+	border: 1px solid #ee6457;
+	color: white;
+	font-size: 20px;
+	margin-left: 10px;
+    cursor: pointer;
+}
+.sendmessage1:hover {
+	background-color: #f9c4ba;
+	border: 1px solid #f9c4ba;
+}
+
+.container3 {
+    width: 100%;
+    height: 600px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.smallcontainer3 {
+    width:95%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+.banner1 {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+
+}
+.banner2 {
+    width: 98%;
+    height: 95%;
+    border: 5px solid #034c5f;
+    border-radius: 60px;
+}
+.container4 {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-bottom: 1px dashed #034c5f;
+}
+.brand {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 100px;
+}
+.brand1{
+    width:25%;
+    height: 100px;
+}
+.brand2{
+    width:50%;
+    height: 100px;
+    font-family: 'mali';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #034c5f;
+}
+.brand1 div {
+    width: 100%;
+    height: 50%;
+    border-bottom: 5px solid #034c5f;
+}
+.smallcontainer4 {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+.company1 {
+    height: 200px;
+    border: 5px solid #034c5f;
+    font-family: 'mali';
+    font-size: 20px;
+    text-align: justify;
+    background-color: #f8dcd6;
+    border-radius: 74px;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 10px 15px rgb(179, 179, 179);
+    margin-left: 80px;
+}
+.company3 {
+    height: 200px;
+    font-family: 'mali';
+    font-size: 20px;
+    text-align: justify;
+    background-color: none;
+    border-radius: 74px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+
+}
+.toy {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.companyinformation {
+    height: 160px;
+    width: 0px;
+    color:#034c5f;
+    overflow: hidden;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding-right: 0px;
+}
+.toy:hover~.companyinformation {
+    width: 450px;
+    padding-right: 30px;
+}
+.companyinformation:hover {
+    width: 450px;
+    padding-right: 30px;
+}
+.Lego {
+    width: 80%;
+}
+.JellyCat {
+    width: 80%;
+    border-radius: 50%;
+}
+.HotWheels {
+    width: 80%;
+}
+.SmartGames {
+    width: 80%;
+    border-radius: 50%;
+}
+.Hatchimals {
+    width: 80%;
+}
+.Shopkins {
+    width: 80%;
+}
+.Gunpla {
+    width: 80%;
+    border-radius: 30px;
+}
+.FunkoPop {
+    width: 80%;
+    border-radius: 30px;
+}
+.Bearbrick {
+    width: 80%;
+    border-radius: 50%;
+}
+.SkullPanda {
+    width: 80%;
+}
+.container6 {
+    width: 100%;
+    height: 4050px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px dashed #034c5f;
+}
+.listofproducts {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.listofproducts1{
+    width:30%;
+    height: 100px
+}
+.listofproducts2{
+    width:40%;
+    height: 100px;
+    font-family: 'mali';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px;
+    color: #034c5f;
+}
+.listofproducts1 div {
+    width: 100%;
+    height: 50%;
+    border-bottom: 5px solid #034c5f;
+}
+.smallcontainer6-1 {
+    width: 1300px;
+    height: 650px;
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'mali';
+    color:#034c5f;
+    font-size: 30px;
+    border: 5px solid #034c5f;
+    border-radius: 60px;
+    box-shadow: 10px 10px 15px rgb(179, 179, 179);
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.smallcontainer6-2 {
+    width: 1300px;
+    height: 650px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.smallcontainer6-1:hover {
+    width: 1310px;
+    height: 660px;
+}
+.container6box {
+    width: 600px;
+    height: 650px;
+    border: 5px solid #034c5f;
+    border-radius: 60px;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgb(179, 179, 179);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'mali';
+    color:#034c5f;
+    font-size: 30px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.container6box:hover {
+    width: 605px;
+    height: 655px;
+}
+.listofproductsbutton {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ee6457;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.listofproductsbutton:hover {
+    background-color: #f9c4ba;
+}
+.vehicle {
+    width: 60%;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.brick {
+    width: 90%;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.brick2 {
+    width: 80%;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.plane {
+    width: 70%;
+    margin-top: 40px;
+}
+.planetext {
+    margin-top: -60px;
+}
+.teddy {
+    width: 70%;
+    margin-top: 40px;
+}
+.boardgames {
+    width: 90%;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+.boardgamestext {
+    margin-top: 75px;
+}
+.animal {
+    width: 60%;
+    margin-top: -160px;
+}
+.animaltext {
+    margin-top: -100px;
+}
+.container7 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px dashed #034c5f;
+}
+.gender {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.gender1{
+    width:37%;
+    height: 100px
+}
+.gender2{
+    width:25%;
+    height: 100px;
+    font-family: 'mali';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px;
+    color: #034c5f;
+}
+.gender1 div {
+    width: 100%;
+    height: 50%;
+    border-bottom: 5px solid #034c5f;
+}
+.gendersmallcontainer {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.gendersmallcontainer a {
+    width: 400px;
+    height: 400px;
+    background-color: #f8dcd6;
+    border-radius: 30px;
+    border: 5px solid #034c5f;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'mali';
+    font-size: 150%;
+    text-decoration: none;
+    color: #034c5f;
+    box-shadow: none;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    box-shadow: 0px 0px 20px rgb(120, 119, 119);
+}
+.boy {
+    width: 80%;
+    border-radius: 50%;
+}
+.girl {
+    width: 80%;
+    border-radius: 50%;
+}
+.unisex {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.gendersmallcontainer a:hover {
+    width: 410px;
+    height: 410px;
+
+}
+.container7 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px dashed #034c5f;
+}
+.age {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.age1{
+    width:37%;
+    height: 100px
+}
+.age2{
+    width:25%;
+    height: 100px;
+    font-family: 'mali';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px;
+    color: #034c5f;
+}
+.age1 div {
+    width: 100%;
+    height: 50%;
+    border-bottom: 5px solid #034c5f;
+}
+.smallcontainer7 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.smallcontainer7 a {
+    width: 250px;
+    height: 450px;
+    background-color: #f8dcd6;
+    border-radius: 30px;
+    border: 5px solid #034c5f;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'mali';
+    font-size: 150%;
+    text-decoration: none;
+    color: #034c5f;
+    box-shadow: none;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    box-shadow: 0px 0px 20px rgb(120, 119, 119);
+}
+.maggie {
+    width: 80%;
+    margin-top: 20px;
+}
+.lisa {
+    width: 72%;
+    margin-top: 20px;
+}
+.bart {
+    width: 78%;
+    margin-top: 20px;
+}
+.marge {
+    width: 38%;
+    margin-top: 20px;
+}
+.homer {
+    width: 57%;
+    margin-top: 20px;
+}
+.agetext {
+    margin-top: 50px;
+}
+.smallcontainer7 a:hover {
+    width: 257px;
+    height: 457px;
+
+}
+.footer {
+    width: 101.2%;
+    height: 501px;
+    background-color: #034c5f;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.footer1 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #97bec6;
+}
+.smallfooter1 {
+    width: 60%;
+    height: 150px;
+}
+.smallfooter2 {
+    width: 40%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footerform {
+    font-family:'mali';
+    font-size: 20px;
+    margin-left: 40px;
+    color: white;
+    margin-top: 10px;
+}
+.footerinput {
+    width: 60%;
+    height: 50px;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-family:'mali';
+}
+.footerbutton {
+    background-color: #ee6457;   
+    border: 1px solid #ee6457;
+    width: 10%;
+    height: 60px;
+    border-radius: 30px;
+    color: white;  
+    text-align: center;  
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.footericon {
+    font-size: 60px;
+    color: white;
+    margin-right: 25px;
+}
+.footerheading {
+    color: white;
+    font-family: 'mali';
+    margin-right: 25px;
+}
+.footer2 {
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.smallfooter4 {
+    width: 34%;
+    height: 350px;
+}
+.sf4items {
+    color: white;
+    font-family: 'mali';
+    margin-left: 60px;
+}
+.item4-1 {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration:underline ;
+}
+.item4-2 {
+    color: #ee6457;
+    font-size: 50px;
+    font-weight:bold;
+    margin-left: 110px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.item4-3 {
+    font-size: 20px;
+}
+.item4-4 {
+    font-size: 20px;
+    text-decoration: none;
+}
+.smallfooter5 {
+    width: 33%;
+    height: 350px;
+}
+.sf5items {
+    color: white;
+    font-family: 'mali';
+    margin-left: 100px;
+}
+.item5-1 {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration:underline ;
+}
+.item5-2 {
+    font-size: 20px;
+    text-decoration: none;
+}
+.footerlogo {
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.smallfooter6 {
+    width: 33%;
+    height: 350px;
+}
+.sf6items {
+    color: white;
+    font-family: 'mali';
+    margin-left: 40px;
+}
+.item6-1 {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration:underline ;
+}
+.item6-2 {
+    font-size: 20px;
+    text-decoration: none;
+}
+.footerbutton:hover {
+    background-color: #f9c4ba;
+    border: 1px solid #f9c4ba;
+}
+.footericon:hover {
+    color: #f9c4ba;
+}
+.item4-4:hover {
+    color: #f9c4ba;
+}
+.item5-2:hover {
+    color: #f9c4ba;
+}
+.item5-3:hover {
+    color: #f9c4ba;
+}
+.item5-4:hover {
+    color: #f9c4ba;
+}
+.item6-2:hover {
+    color: #f9c4ba;
+}
+.item6-3:hover {
+    color: #f9c4ba;
+}
+.item6-4:hover {
+    color: #f9c4ba;
+}
+.sale {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.sale1{
+    width:37%;
+    height: 100px
+}
+.sale2{
+    width:25%;
+    height: 100px;
+    font-family: 'mali';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px;
+    color: #034c5f;
+}
+.sale1 div {
+    width: 100%;
+    height: 50%;
+    border-bottom: 5px solid #034c5f;
+}
+.container5 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    border-bottom: 1px dashed #034c5f;
+}
+.product {
+    width: 290px;
+    height: 430px;
+    border: 6px solid #034c5f;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 15px #97bec6;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.line1 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discount {
+    width: 60px;
+    height: 60px;
+    background-color: #ee6457;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'mali';
+    font-size: 20px;
+    font-weight: bold;
+}
+.fa-heart {
+    margin-right: 15px;
+    font-size: 200%;
+    color: #60a3b1;
+    cursor: pointer;
+}
+.line2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.saleimg1 {
+    width: 70%;
+}
+.line3 {
+    width: 100%;
+    height: 10%;
+    font-family: 'mali';
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4%;
+}
+.line4 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #034c5f;
+}
+.newprice {
+    color:#034c5f;
+    font-weight: bold;
+    font-family: 'mali';
+    font-size: 17px;
+}
+.oldprice {
+    color:#034c5f;
+    font-family: 'mali';
+    text-decoration: line-through;
+}
+.line5 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+.button1 {
+    width: 30%;
+    height: 80%;
+    border: 2px solid #034c5f;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+}
+.button1icon {
+    color:#034c5f;
+    font-size: 25px;
+}
+.button2 {
+    width: 50%;
+    height: 80%;
+    border: 2px solid #ee6457;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #ee6457;
+    color: white;
+    text-decoration: none;
+    font-family: 'mali';
+    font-size: 120%;
+}
+.fa-heart:hover {
+    color:#ee6457;
+}
+.button1:hover {
+    background-color: #97bec6;
+}
+.button2:hover {
+    background-color: #f9c4ba;
+    border: 2px solid #f9c4ba;
+}
+.product:hover {
+    width: 297px;
+    height: 437px;
+}
+.new {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.new1{
+    width:30%;
+    height: 100px
+}
+.new2{
+    width:40%;
+    height: 100px;
+    font-family: 'mali';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px;
+    color: #034c5f;
+}
+.new1 div {
+    width: 100%;
+    height: 50%;
+    border-bottom: 5px solid #034c5f;
+}
