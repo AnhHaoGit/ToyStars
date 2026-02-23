@@ -1,6 +1,9 @@
 body {
     background-image: url("./background.jpeg");
+    font-family: "Montserrat",
+        sans-serif;
 }
+
 .container1 {
     width: 101.2%;
     height: 30px;
@@ -14,6 +17,7 @@ body {
     left: 0px;
     z-index: 3;
 }
+
 .item1 {
     width: 80%;
     height: 50px;
@@ -21,16 +25,18 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
+
 .title1 {
     text-decoration: none;
-    font-family: 'mali';
     color: #034c5f;
     font-weight: bold;
 }
+
 .fa-house {
     margin-left: 20px;
-    color:#034c5f;
+    color: #034c5f;
 }
+
 .title1-1 {
     border-right: 1px solid #034c5f;
     display: inline-block;
@@ -39,35 +45,40 @@ body {
 
 .fa-user {
     margin-left: 25px;
-    color:#034c5f;
+    color: #034c5f;
 }
+
 .title1-2 {
     border-right: 1px solid #034c5f;
     display: inline-block;
     width: 200px;
 }
+
 .fa-right-to-bracket {
     margin-left: 15px;
-    color:#034c5f;
+    color: #034c5f;
 }
+
 .title1-3 {
     margin-left: 10px;
     width: 160px;
 }
+
 .item2 {
     width: 20%;
     height: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-family: 'Mali';
 }
+
 .shoppingcart {
     text-decoration: none;
-    color:#034c5f;
+    color: #034c5f;
     font-weight: bold;
     margin-right: 40px;
 }
+
 .container2 {
     width: 101.2%;
     height: 70px;
@@ -80,41 +91,46 @@ body {
     left: 0px;
     z-index: 3;
 }
+
 .websitelogo {
     width: 100px;
     margin-left: 50px;
 }
-.searchbar{
+
+.searchbar {
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: -30px;
 }
+
 input {
     font-size: 25px;
     border-radius: 30px;
     width: 80%;
     border: 2px solid #034c5f;
-    font-family: 'mali';
 }
+
 .search {
-    background-color: #ee6457;   
+    background-color: #ee6457;
     border: 1px solid #ee6457;
     width: 5%;
     height: 40px;
     border-radius: 30px;
-    color: white;  
-    text-align: center;  
+    color: white;
+    text-align: center;
     font-size: 20px;
     margin-left: 10px;
     cursor: pointer;
     text-align: center;
 }
+
 .search:hover {
-    background-color: #f9c4ba;   
+    background-color: #f9c4ba;
     border: 1px solid #f9c4ba;
 }
+
 .tab1 {
     width: 101.2%;
     height: 25px;
@@ -126,6 +142,7 @@ input {
     align-items: center;
     justify-content: space-evenly;
 }
+
 .tab1 div {
     height: 100%;
     border-bottom: none;
@@ -133,14 +150,16 @@ input {
     align-items: center;
     justify-content: center;
 }
+
 .tab1 a {
     color: white;
-    font-family: 'mali';
     text-decoration: none;
 }
+
 .tab1 div:hover {
     border-bottom: 3px solid white;
 }
+
 .tab2 {
     width: 101.2%;
     height: 25px;
@@ -152,6 +171,7 @@ input {
     align-items: center;
     justify-content: space-evenly;
 }
+
 .tab2 div {
     height: 100%;
     border-bottom: none;
@@ -159,14 +179,16 @@ input {
     align-items: center;
     justify-content: center;
 }
+
 .tab2 a {
     color: white;
-    font-family: 'mali';
     text-decoration: none;
 }
+
 .tab2 div:hover {
     border-bottom: 3px solid white;
 }
+
 .footer {
     width: 101.2%;
     height: 501px;
@@ -177,6 +199,7 @@ input {
     flex-direction: column;
     margin-top: 100px;
 }
+
 .footer1 {
     width: 100%;
     height: 150px;
@@ -185,10 +208,12 @@ input {
     align-items: center;
     border-bottom: 1px solid #97bec6;
 }
+
 .smallfooter1 {
     width: 60%;
     height: 150px;
 }
+
 .smallfooter2 {
     width: 40%;
     height: 150px;
@@ -196,220 +221,253 @@ input {
     justify-content: flex-end;
     align-items: center;
 }
+
 .footerform {
-    font-family:'mali';
     font-size: 20px;
     margin-left: 40px;
     color: white;
     margin-top: 10px;
 }
+
 .footerinput {
     width: 60%;
     height: 50px;
     font-size: 30px;
     border: 2px solid white;
     border-radius: 30px;
-    font-family:'mali';
 }
+
 .footerbutton {
-    background-color: #ee6457;   
+    background-color: #ee6457;
     border: 1px solid #ee6457;
     width: 10%;
     height: 60px;
     border-radius: 30px;
-    color: white;  
-    text-align: center;  
+    color: white;
+    text-align: center;
     font-size: 30px;
     cursor: pointer;
     text-align: center;
 }
+
 .footericon {
     font-size: 60px;
     color: white;
     margin-right: 25px;
 }
+
 .footerheading {
     color: white;
-    font-family: 'mali';
     margin-right: 25px;
 }
+
 .footer2 {
     width: 100%;
     height: 350px;
     display: flex;
 }
+
 .smallfooter4 {
     width: 34%;
     height: 350px;
 }
+
 .sf4items {
     color: white;
-    font-family: 'mali';
     margin-left: 60px;
 }
+
 .item4-1 {
     font-weight: bold;
     font-size: 20px;
-    text-decoration:underline ;
+    text-decoration: underline;
 }
+
 .item4-2 {
     color: #ee6457;
     font-size: 50px;
-    font-weight:bold;
+    font-weight: bold;
     margin-left: 110px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .item4-3 {
     font-size: 20px;
 }
+
 .item4-4 {
     font-size: 20px;
     text-decoration: none;
 }
+
 .smallfooter5 {
     width: 33%;
     height: 350px;
 }
+
 .sf5items {
     color: white;
-    font-family: 'mali';
     margin-left: 100px;
 }
+
 .item5-1 {
     font-weight: bold;
     font-size: 20px;
-    text-decoration:underline ;
+    text-decoration: underline;
 }
+
 .item5-2 {
     font-size: 20px;
     text-decoration: none;
 }
+
 .footerlogo {
     width: 250px;
     margin-left: 100px;
     margin-top: 40px;
 }
+
 .smallfooter6 {
     width: 33%;
     height: 350px;
 }
+
 .sf6items {
     color: white;
-    font-family: 'mali';
     margin-left: 40px;
 }
+
 .item6-1 {
     font-weight: bold;
     font-size: 20px;
-    text-decoration:underline ;
+    text-decoration: underline;
 }
+
 .item6-2 {
     font-size: 20px;
     text-decoration: none;
 }
+
 .footerbutton:hover {
     background-color: #f9c4ba;
     border: 1px solid #f9c4ba;
 }
+
 .footericon:hover {
     color: #f9c4ba;
 }
+
 .item4-4:hover {
     color: #f9c4ba;
 }
+
 .item5-2:hover {
     color: #f9c4ba;
 }
+
 .item5-3:hover {
     color: #f9c4ba;
 }
+
 .item5-4:hover {
     color: #f9c4ba;
 }
+
 .item6-2:hover {
     color: #f9c4ba;
 }
+
 .item6-3:hover {
     color: #f9c4ba;
 }
+
 .item6-4:hover {
     color: #f9c4ba;
 }
+
 .message {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	width: 80px;
-	height: 80px;
-	border-radius: 70px;
-	background-color: #ee6457;
-	color: white;
-	font-size: 30px;
-	transition-duration: 0.5s;
-	transition-timing-function: ease;
-	overflow: hidden;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+    background-color: #ee6457;
+    color: white;
+    font-size: 30px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    overflow: hidden;
     box-shadow: 0px 0px 10px 5px rgb(179, 179, 179);
 }
+
 .message:hover {
-	width: 400px;
-	height: 600px;
-	background-color: white;
-	font-size: 0px;
-	border: 5px solid #034c5f;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    font-size: 0px;
+    border: 5px solid #034c5f;
 }
+
 .fa-message {
-	margin-top: 30px;
+    margin-top: 30px;
 }
+
 .messagebox2 {
-	width: 90%;
-	height: 100%;
-	margin-top: 30px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
+    width: 90%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 
 }
+
 .messageimg {
-	width: 40%;
+    width: 40%;
 }
+
 .messagetext1 {
-	color: #034c5f;
-	font-size: 20px;
-	margin-top: 20px;
-	font-family: 'mali';
+    color: #034c5f;
+    font-size: 20px;
+    margin-top: 20px;
 }
+
 .messageform {
-	margin-top: 320px;
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
+    margin-top: 320px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
 .messageinput {
-	border-radius: 30px;
-	border: 1px solid #034c5f;
-	font-size: 35px;
-	width: 75%;
+    border-radius: 30px;
+    border: 1px solid #034c5f;
+    font-size: 35px;
+    width: 75%;
 }
+
 .sendmessage1 {
-	width: 70px;
-	height: 40px;
-	background-color: #ee6457;
-	border-radius: 30px;
-	border: 1px solid #ee6457;
-	color: white;
-	font-size: 20px;
-	margin-left: 10px;
+    width: 70px;
+    height: 40px;
+    background-color: #ee6457;
+    border-radius: 30px;
+    border: 1px solid #ee6457;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
     cursor: pointer;
 }
+
 .sendmessage1:hover {
-	background-color: #f9c4ba;
-	border: 1px solid #f9c4ba;
+    background-color: #f9c4ba;
+    border: 1px solid #f9c4ba;
 }
 
 .container3 {
@@ -420,6 +478,7 @@ input {
     justify-content: space-between;
     margin-top: 151px;
 }
+
 .container4 {
     width: 17%;
     height: 1250px;
@@ -428,26 +487,28 @@ input {
     border-bottom: 5px solid #034c5f;
     border-bottom-right-radius: 30px;
 }
+
 .option {
     margin-left: 20px;
-    font-family: 'mali';
     font-weight: bold;
     font-size: 15px;
     margin-top: 20px;
     color: #034c5f;
 }
+
 .cssoption {
     display: flex;
     font-size: 15px;
     margin-left: 40px;
-    font-family: 'mali';
     margin-top: 10px;
     color: #034c5f;
 }
+
 .checkbox {
     width: 20px;
     cursor: pointer;
 }
+
 .summit {
     width: 150px;
     height: 50px;
@@ -460,28 +521,31 @@ input {
     margin-left: 40px;
     margin-top: 30px;
 }
+
 .searchtext {
     text-decoration: none;
     color: white;
-    font-family: 'mali';
     font-size: 15px;
 }
+
 .summit:hover {
     background-color: #f9c4ba;
     border: 1px solid #f9c4ba;
 }
+
 .brand {
     display: block;
     margin-left: 60px;
     text-decoration: none;
-    color:#034c5f;
-    font-family: 'mali';
+    color: #034c5f;
     margin-top: 10px;
     font-size: 15px;
 }
+
 .brand:hover {
     color: white;
 }
+
 .container5 {
     width: 85%;
     height: 4000px;
@@ -489,6 +553,7 @@ input {
     flex-direction: column;
     align-items: center;
 }
+
 .banner0 {
     width: 100%;
     height: 600px;
@@ -496,18 +561,21 @@ input {
     margin-top: 50px;
     justify-content: center;
 }
+
 .smallbanner0 {
-    width:90%;
+    width: 90%;
     height: 100%;
     display: flex;
     overflow-x: auto;
 }
+
 .banner1 {
     width: 100%;
     height: 100%;
     flex-shrink: 0;
-    
+
 }
+
 .banner2 {
     width: 97%;
     height: 90%;
@@ -515,6 +583,7 @@ input {
     border-radius: 60px;
     box-shadow: 10px 10px 15px rgb(179, 179, 179);
 }
+
 .introduction {
     width: 90%;
     height: 300px;
@@ -527,6 +596,7 @@ input {
     align-items: center;
     box-shadow: 10px 10px 15px rgb(179, 179, 179);
 }
+
 .introductionbox1 {
     width: 200px;
     height: 200px;
@@ -534,22 +604,24 @@ input {
     justify-content: center;
     align-items: center;
 }
+
 .introductionimg {
     width: 95%;
 }
+
 .introductionbox2 {
     width: 700px;
     height: 200px;
     border-left: 1px solid #034c5f;
     text-align: justify;
     color: #034c5f;
-    font-family: 'mali';
     padding-left: 50px;
     font-size: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
 .sort {
     width: 95%;
     height: 50px;
@@ -560,26 +632,30 @@ input {
     margin-bottom: -70px;
     border-bottom: 1px solid #034c5f;
 }
+
 .sortitem {
-    font-family: 'mali';
     font-size: 25px;
     cursor: pointer;
     margin-right: 20px;
     color: #034c5f;
 }
+
 .fa-arrow-up {
     margin-right: 10px;
     color: #034c5f;
     font-size: 30px;
 }
+
 .fa-arrow-down {
     margin-right: 10px;
     color: #034c5f;
     font-size: 30px;
 }
+
 .sortitem:hover {
     color: #f9c4ba;
 }
+
 .sale {
     width: 95%;
     height: 100px;
@@ -587,25 +663,28 @@ input {
     justify-content: space-between;
     margin-top: 100px;
 }
+
 .sale1 {
     width: 37%;
     height: 100px
 }
-.sale2{
-    width:25%;
+
+.sale2 {
+    width: 25%;
     height: 100px;
-    font-family: 'mali';
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-size: 50px;
     color: #034c5f;
 }
+
 .sale1 div {
     width: 100%;
     height: 50%;
     border-bottom: 5px solid #034c5f;
 }
+
 .smallcontainer {
     width: 95%;
     height: 550px;
@@ -614,6 +693,7 @@ input {
     align-items: center;
     border-bottom: 1px dashed #034c5f;
 }
+
 .product {
     width: 290px;
     height: 430px;
@@ -627,6 +707,7 @@ input {
     transition-duration: 0.5s;
     transition-timing-function: ease;
 }
+
 .line1 {
     width: 100%;
     height: 15%;
@@ -634,6 +715,7 @@ input {
     justify-content: space-between;
     align-items: center;
 }
+
 .discount {
     width: 60px;
     height: 60px;
@@ -645,16 +727,17 @@ input {
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: 'mali';
     font-size: 20px;
     font-weight: bold;
 }
+
 .fa-heart {
     margin-right: 15px;
     font-size: 200%;
     color: #60a3b1;
     cursor: pointer;
 }
+
 .line2 {
     width: 100%;
     height: 40%;
@@ -663,13 +746,14 @@ input {
     align-items: center;
     margin-top: 5%;
 }
+
 .saleimg1 {
     width: 70%;
 }
+
 .line3 {
     width: 100%;
     height: 10%;
-    font-family: 'mali';
     font-size: 100%;
     display: flex;
     justify-content: center;
@@ -677,6 +761,7 @@ input {
     text-align: center;
     margin-top: 4%;
 }
+
 .line4 {
     width: 100%;
     height: 10%;
@@ -685,17 +770,18 @@ input {
     align-items: center;
     border-bottom: 1px solid #034c5f;
 }
+
 .newprice {
-    color:#034c5f;
+    color: #034c5f;
     font-weight: bold;
-    font-family: 'mali';
     font-size: 17px;
 }
+
 .oldprice {
-    color:#034c5f;
-    font-family: 'mali';
+    color: #034c5f;
     text-decoration: line-through;
 }
+
 .line5 {
     width: 100%;
     height: 15%;
@@ -704,6 +790,7 @@ input {
     align-items: center;
     margin-top: 10px;
 }
+
 .button1 {
     width: 30%;
     height: 80%;
@@ -715,10 +802,12 @@ input {
     text-decoration: none;
     background-color: white;
 }
+
 .button1icon {
-    color:#034c5f;
+    color: #034c5f;
     font-size: 25px;
 }
+
 .button2 {
     width: 50%;
     height: 80%;
@@ -731,23 +820,27 @@ input {
     background-color: #ee6457;
     color: white;
     text-decoration: none;
-    font-family: 'mali';
     font-size: 120%;
 }
+
 .fa-heart:hover {
-    color:#ee6457;
+    color: #ee6457;
 }
+
 .button1:hover {
     background-color: #97bec6;
 }
+
 .button2:hover {
     background-color: #f9c4ba;
     border: 2px solid #f9c4ba;
 }
+
 .product:hover {
     width: 297px;
     height: 437px;
 }
+
 .new {
     width: 100%;
     height: 100px;
@@ -755,25 +848,28 @@ input {
     justify-content: space-between;
     margin-top: 100px;
 }
-.new1{
-    width:30%;
+
+.new1 {
+    width: 30%;
     height: 100px
 }
-.new2{
-    width:40%;
+
+.new2 {
+    width: 40%;
     height: 100px;
-    font-family: 'mali';
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-size: 50px;
     color: #034c5f;
 }
+
 .new1 div {
     width: 100%;
     height: 50%;
     border-bottom: 5px solid #034c5f;
 }
+
 .legocreatorsale {
     width: 95%;
     height: 100px;
@@ -781,25 +877,28 @@ input {
     justify-content: space-between;
     margin-top: 100px;
 }
+
 .legocreatorsale1 {
     width: 30%;
     height: 100px
 }
-.legocreatorsale2{
-    width:40%;
+
+.legocreatorsale2 {
+    width: 40%;
     height: 100px;
-    font-family: 'mali';
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-size: 50px;
     color: #034c5f;
 }
+
 .legocreatorsale1 div {
     width: 100%;
     height: 50%;
     border-bottom: 5px solid #034c5f;
 }
+
 .page {
     width: 30%;
     height: 80px;
@@ -808,6 +907,7 @@ input {
     justify-content: space-between;
     align-items: center;
 }
+
 .page a {
     height: 40px;
     width: 40px;
@@ -817,12 +917,12 @@ input {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-family: 'mali';
     font-size: 20px;
     color: #034c5f;
     text-decoration: none;
     background-color: white;
 }
+
 .page a:hover {
     background-color: #97bec6;
 }
