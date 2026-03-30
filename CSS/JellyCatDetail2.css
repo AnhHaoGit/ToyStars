@@ -1,5 +1,5 @@
 body {
-    background-image: url("./background.jpeg");
+    background-image: url("../assets/background.jpeg");
     font-family: "Montserrat",
         sans-serif;
 }
@@ -705,7 +705,6 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     height: 20%;
     font-weight: bold;
     font-size: 30px;
@@ -713,7 +712,7 @@ input {
 }
 
 .heart3 {
-    margin-right: 40px;
+    margin-left: 260px;
     cursor: pointer;
 }
 
@@ -1012,7 +1011,6 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
 }
 
 .productdetail {

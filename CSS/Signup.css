@@ -1,5 +1,5 @@
 body {
-    background-image: url("./background.jpeg");
+    background-image: url("../assets/background.jpeg");
     font-family: "Montserrat",
         sans-serif;
 }
@@ -54,7 +54,7 @@ body {
     display: inline-block;
 }
 
-.fa-user {
+.fa-right-to-bracket {
     color: #034c5f;
     font-size: 20px;
     margin-right: 10px;
@@ -62,6 +62,13 @@ body {
 }
 
 .fa-house {
+    color: #034c5f;
+    font-size: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.fa-boxes-stacked {
     color: #034c5f;
     font-size: 20px;
     margin-right: 10px;
@@ -79,7 +86,6 @@ body {
 
 .list {
     background-color: white;
-    border-radius: 10px;
     width: 200px;
     height: 140px;
     position: fixed;
@@ -92,6 +98,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 10px;
     border: 1px solid #034c5f;
 }
 
@@ -219,7 +226,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
     margin: auto;
     margin-top: 20px;
@@ -229,7 +236,7 @@ form {
     color: white;
     font-size: 15px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 90%;
 }
 
@@ -257,7 +264,7 @@ span {
     display: block;
     background-color: #ee6457;
     border: 1px solid #ee6457;
-    width: 38%;
+    width: 40%;
     border-radius: 30px;
     color: white;
     padding: 15px 32px;
@@ -268,24 +275,14 @@ span {
     cursor: pointer;
 }
 
-.text {
-    display: block;
-    margin: auto;
-    margin-top: 5px;
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 13px;
-}
-
 .button2 {
     background-color: #034c5f;
     border: 3px solid #97bec6;
     border-radius: 30px;
     color: white;
-    width: 50%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 55%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -295,25 +292,29 @@ span {
     cursor: pointer;
 }
 
+.span1 {
+    margin-left: 7px;
+}
+
 .button3 {
     background-color: #034c5f;
     border: 3px solid #97bec6;
     border-radius: 30px;
-    width: 50%;
+    width: 55%;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: 16px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 700px) {
     .item {
         display: none;
     }
@@ -324,7 +325,7 @@ span {
 }
 
 .bar:hover~.list {
-    right: 1px;
+    right: 0px;
 }
 
 .list:hover {
@@ -371,6 +372,7 @@ span {
 .footerform {
     font-size: 20px;
     margin-left: 40px;
+    color: white;
     margin-top: 10px;
 }
 

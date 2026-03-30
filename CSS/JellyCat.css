@@ -1,5 +1,5 @@
 body {
-    background-image: url("./background.jpeg");
+    background-image: url("../assets/background.jpeg");
     font-family: "Montserrat",
         sans-serif;
 }
@@ -40,7 +40,7 @@ body {
 .title1-1 {
     border-right: 1px solid #034c5f;
     display: inline-block;
-    width: 170px;
+    width: 165px;
 }
 
 .fa-user {
@@ -480,11 +480,11 @@ input {
 }
 
 .container4 {
-    width: 17%;
+    width: 16%;
     height: 1250px;
     background-color: #fff1ed;
-    border-right: 5px solid #034c5f;
-    border-bottom: 5px solid #034c5f;
+    border-right: 3px solid #034c5f;
+    border-bottom: 3px solid #034c5f;
     border-bottom-right-radius: 30px;
 }
 
@@ -548,37 +548,16 @@ input {
 
 .container5 {
     width: 85%;
-    height: 4000px;
+    height: 3700px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.banner0 {
-    width: 100%;
-    height: 600px;
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
-}
-
-.smallbanner0 {
+iframe {
     width: 90%;
-    height: 100%;
-    display: flex;
-    overflow-x: auto;
-}
-
-.banner1 {
-    width: 100%;
-    height: 100%;
-    flex-shrink: 0;
-
-}
-
-.banner2 {
-    width: 97%;
-    height: 90%;
+    height: 414px;
+    margin-top: 100px;
     border: 5px solid #034c5f;
     border-radius: 60px;
     box-shadow: 10px 10px 15px rgb(179, 179, 179);
@@ -607,6 +586,7 @@ input {
 
 .introductionimg {
     width: 95%;
+    border-radius: 50%;
 }
 
 .introductionbox2 {
@@ -625,7 +605,7 @@ input {
 .sort {
     width: 95%;
     height: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -925,4 +905,37 @@ input {
 
 .page a:hover {
     background-color: #97bec6;
+}
+
+.bookssale {
+    width: 95%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.bookssale1 {
+    width: 40%;
+    height: 100px
+}
+
+.bookssale2 {
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px;
+    color: #034c5f;
+}
+
+.bookssale1 div {
+    width: 100%;
+    height: 50%;
+    border-bottom: 5px solid #034c5f;
+}
+
+.booksimgfrog {
+    width: 65%;
 }
